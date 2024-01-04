@@ -1,0 +1,40 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.father-three-function {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+.father-player {
+  background-color: yellow;
+  width: 20%;
+  height: 40px;
+  position: absolute;
+}
+
+.css-center {
+  text-align: center;
+}
+
+.css-heading {
+  font-size: 1.5rem;
+}
+
+.father-time {
+  background-color: red;
+  width: 20%;
+  height: 86px;
+  position: absolute;
+}
+
+.father-enemy {
+}
+
+.father-canvas {
+}
+
+.father-container {
+  text-align: center;
+}
