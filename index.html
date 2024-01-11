@@ -23,7 +23,15 @@
   </head>
   <body>
     <h2 style="text-align: center; font-style: italic">Trận chiến cuối cùng</h2>
-    <div style="display: flex; justify-content: center">
+    <div style="display: flex; justify-content: center; gap: 20px">
+      <div class="seccond__containter" style="text-align: center; width: 13%">
+        <h3>Hướng dẫn chơi</h3>
+        Phím A (qua trái) D (qua phải) W (nhảy)
+        <span style="color: blue">di chuyển</span>
+        <br />
+        <br />
+        Phím Space để <span style="color: red">Tấn công</span>
+      </div>
       <div style="position: relative; display: inline-block">
         <div
           style="
@@ -123,13 +131,31 @@
         ></div>
         <canvas></canvas>
       </div>
+      <div class="seccond__containter" style="text-align: center">
+        <h3>Hướng dẫn chơi</h3>
+        Mũi tên &#8592; &#8593; &#8594; để
+        <span style="color: blue">di chuyển</span>
+        <br />
+        <br />
+        Mũi tên &#8595; để <span style="color: red">Tấn công</span>
+      </div>
     </div>
+    <br />
+    <footer>
+      <div
+        style="text-align: center; font-style: italic; color: #6b6767"
+        class="footer"
+      >
+        Bản quyền thuộc Nguyễn Văn Hào
+      </div>
+    </footer>
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/gsap.min.js"
       integrity="sha512-EZI2cBcGPnmR89wTgVnN3602Yyi7muWo8y1B3a8WmIv1J9tYG+udH4LvmYjLiGp37yHB7FfaPBo8ly178m9g4Q=="
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     ></script>
+
     <script src="./js/classed.js"></script>
     <script src="./js/utils.js"></script>
     <script src="./js/index.js"></script>
